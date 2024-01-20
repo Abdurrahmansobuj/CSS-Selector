@@ -1,0 +1,37 @@
+/*
+h1 => Selector
+color => Property
+red => value
+
+* => universal Selector
+. => class Selector
+# => Id Selector
+, => Group
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+div p{
+    color: black;
+}
+.text_bk{
+    color: red;
+    text-align: center;
+    background-color: aqua;
+}
+.first-div{
+    background-color: blue;
+   
+}
+.first-div p{
+    color: black;
+}
